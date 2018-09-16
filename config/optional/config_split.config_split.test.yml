@@ -1,15 +1,13 @@
 langcode: en
 status: false
 dependencies: {  }
-id: prod_config
-label: 'Production Config'
-folder: ./../config/environments/production
+id: staging_config
+label: 'Test environment'
+folder: ./../config/splits/test
 module:
-  big_pipe: 0
+  dblog: 0
   dynamic_page_cache: 0
-  google_analytics: 0
   page_cache: 0
-  syslog: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }

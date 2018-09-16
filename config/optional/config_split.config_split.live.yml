@@ -1,13 +1,15 @@
 langcode: en
 status: false
 dependencies: {  }
-id: staging_config
-label: 'Staging Config'
-folder: ./../config/environments/staging
+id: prod_config
+label: 'Live environment'
+folder: ./../config/splits/live
 module:
-  dblog: 0
+  big_pipe: 0
   dynamic_page_cache: 0
+  google_analytics: 0
   page_cache: 0
+  syslog: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }

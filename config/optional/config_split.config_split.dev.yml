@@ -2,8 +2,8 @@ langcode: en
 status: false
 dependencies: {  }
 id: dev_config
-label: 'Dev Config'
-folder: ./../config/environments/development
+label: 'Dev environment'
+folder: ./../config/splits/dev
 module:
   dblog: 0
   field_ui: 0
