@@ -1,7 +1,7 @@
 langcode: en
 status: false
 dependencies: {  }
-id: staging_config
+id: test
 label: 'Test environment'
 folder: ./../config/splits/test
 module:

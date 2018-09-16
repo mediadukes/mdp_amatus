@@ -1,7 +1,7 @@
 langcode: en
 status: false
 dependencies: {  }
-id: prod_config
+id: live
 label: 'Live environment'
 folder: ./../config/splits/live
 module:

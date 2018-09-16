@@ -1,7 +1,7 @@
 langcode: en
 status: false
 dependencies: {  }
-id: dev_config
+id: dev
 label: 'Dev environment'
 folder: ./../config/splits/dev
 module:
