@@ -1,0 +1,16 @@
+default_button: true
+default_message: true
+default_tab: true
+default_tab_edit: false
+button:
+  article: true
+  page: true
+message:
+  article: true
+  page: true
+tab:
+  article: false
+  page: false
+tab_edit:
+  article: false
+  page: false

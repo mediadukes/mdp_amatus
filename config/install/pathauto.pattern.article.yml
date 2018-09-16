@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: article
+label: Article
+type: 'canonical_entities:node'
+pattern: 'articles/[node:title]'
+selection_criteria:
+  770fcffe-b977-4f2a-9ade-eb420e583d91:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 770fcffe-b977-4f2a-9ade-eb420e583d91
+selection_logic: and
+weight: -10
+relationships: {  }

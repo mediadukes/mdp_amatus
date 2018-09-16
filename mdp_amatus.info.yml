@@ -1,0 +1,54 @@
+name: Amatus
+type: profile
+description: 'Media Dukes base profile with pre-configured commonly used features.'
+version: VERSION
+core: 8.x
+dependencies:
+  - node
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - toolbar
+  - filter
+  - field_ui
+  - file
+  - link
+  - telephone
+  - rdf
+  - views
+  - views_ui
+  - automated_cron
+  - addanother
+  - admin_toolbar
+  - admin_toolbar_tools
+  - admin_toolbar_links_access_filter
+  - adminimal_admin_toolbar
+  - metatag
+  - module_filter
+  - field_group
+  - pathauto
+  - simple_sitemap
+  - smart_trim
+  - token
+  - components
+  - config_filter
+  - config_split
+  - mdm_paragraphs
+themes:
+  - bartik
+  - seven
+  - adminimal_theme

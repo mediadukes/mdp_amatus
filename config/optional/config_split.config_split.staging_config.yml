@@ -1,0 +1,16 @@
+langcode: en
+status: false
+dependencies: {  }
+id: staging_config
+label: 'Staging Config'
+folder: ./../config/environments/staging
+module:
+  dblog: 0
+  dynamic_page_cache: 0
+  page_cache: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

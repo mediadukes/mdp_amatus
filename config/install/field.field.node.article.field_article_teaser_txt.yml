@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_teaser_txt
+    - node.type.article
+  module:
+    - text
+id: node.article.field_article_teaser_txt
+field_name: field_article_teaser_txt
+entity_type: node
+bundle: article
+label: 'Teaser text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

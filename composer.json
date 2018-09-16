@@ -1,0 +1,65 @@
+{
+  "name": "mediadukes/mdp_amatus",
+  "description": "Media Dukes D8 base profile",
+  "type": "drupal-profile",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "proprietary",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packages.mediadukes.be"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.2",
+    "cweagans/composer-patches": "^1.6.5",
+    "drupal-composer/drupal-scaffold": "^2.5",
+    "drupal/addanother": "^1.0",
+    "drupal/admin_toolbar": "^1.0",
+    "drupal/adminimal_admin_toolbar": "^1.0",
+    "drupal/adminimal_theme": "^1.0",
+    "drupal/components": "^1.0",
+    "drupal/config_filter": "^1.0",
+    "drupal/config_split": "^1.0",
+    "drupal/eu_cookie_compliance": "^1.0",
+    "drupal/field_group": "^3.0",
+    "drupal/google_analytics": "^2.0",
+    "drupal/metatag": "^1.0",
+    "drupal/module_filter": "^3.0",
+    "drupal/pathauto": "^1.0",
+    "drupal/simple_sitemap": "^2.0",
+    "drupal/smart_trim": "^1.0",
+    "drupal/token": "^1.0",
+    "mediadukes/mdm_paragraphs": "dev-develop",
+    "oomphinc/composer-installers-extender": "^1.1"
+  },
+  "extra": {
+    "installer-types": [
+      "component",
+      "bower-asset",
+      "npm-asset"
+    ],
+    "installer-paths": {
+      "web/core": ["type:drupal-core"],
+      "web/libraries/{$name}": [
+        "type:drupal-library",
+        "type:component",
+        "type:bower-asset",
+        "type:npm-asset"
+      ],
+      "web/modules/contrib/{$name}": ["type:drupal-module"],
+      "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+      "web/themes/contrib/{$name}": ["type:drupal-theme"],
+      "drush/Commands/{$name}": ["type:drupal-drush"]
+    }
+  }
+}
