@@ -1,6 +1,6 @@
 # Amatus: custom Drupal 8 install profile
 
-This profile can be used to kickstart new Drupal 8 projects. It automatically installs and configures a bunch of usefull modules and themes.
+This profile can be used to kickstart new Drupal 8 projects. It automatically installs and configures a bunch of useful modules and themes.
 
 Some key modules/themes are:
 
