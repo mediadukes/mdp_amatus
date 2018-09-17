@@ -14,7 +14,7 @@ Some key modules/themes are:
 This profile also adds 2 content types (article and basic page) which uses paragraphs fields to add content. For a set of pre-configured paragraph types this profile uses the [mdm_paragraphs](https://github.com/mediadukes/mdm_paragraphs) module.
 
 
-##Usage
+## Usage
 
 Just install as any other drupal profile using `composer require`.
 
