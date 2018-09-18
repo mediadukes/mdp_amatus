@@ -1,0 +1,7 @@
+mdp_amatus.content:
+  path: '/default-homepage'
+  defaults:
+    _controller: '\Drupal\mdp_amatus\Controller\AmatusController::content'
+    _title: 'Welcome'
+  requirements:
+    _permission: 'access content'
