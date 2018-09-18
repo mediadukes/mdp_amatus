@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.field_bp_main_content
+    - field.field.node.page.field_meta_tags
     - node.type.page
   module:
     - entity_reference_revisions
@@ -22,4 +23,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_meta_tags: true
   links: true

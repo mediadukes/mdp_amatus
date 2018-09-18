@@ -5,12 +5,14 @@ dependencies:
     - field.field.node.article.field_article_main_content
     - field.field.node.article.field_article_teaser_img
     - field.field.node.article.field_article_teaser_txt
+    - field.field.node.article.field_meta_tags
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
   module:
     - field_group
     - image
+    - metatag
     - paragraphs_browser
     - path
     - text
@@ -22,7 +24,7 @@ third_party_settings:
         - group_teaser_content
         - group_main_content
       parent_name: ''
-      weight: 1
+      weight: 2
       format_type: tabs
       format_settings:
         id: ''
@@ -80,7 +82,7 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -115,9 +117,15 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
+  field_meta_tags:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_tags:
     type: entity_reference_autocomplete_tags
-    weight: 2
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS

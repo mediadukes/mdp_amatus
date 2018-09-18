@@ -8,7 +8,7 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Basic page'
+name: 'Page'
 type: page
 description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
 help: ''
