@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: full_html_linkit_profile
+label: 'Full HTML links'
+description: ''
+attributes: {  }
+matchers:
+  e7021940-e769-4f86-b35d-438224d8a3a0:
+    uuid: e7021940-e769-4f86-b35d-438224d8a3a0
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: Content
+      bundles:
+        article: article
+        page: page
+      group_by_bundle: true
+      include_unpublished: false
+  82e8ceef-2da0-4ecb-8a11-0dc7697e8e9b:
+    uuid: 82e8ceef-2da0-4ecb-8a11-0dc7697e8e9b
+    id: 'entity:media'
+    weight: 0
+    settings:
+      result_description: Media
+      bundles:
+        file: file
+        video: video
+      group_by_bundle: true

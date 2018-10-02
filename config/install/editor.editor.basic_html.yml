@@ -15,12 +15,16 @@ settings:
           name: Formatting
           items:
             - Bold
-            - Underline
             - Italic
+            - Underline
+            - Strike
+            - '-'
+            - RemoveFormat
         -
           name: Linking
           items:
             - DrupalLink
+            - Linkit
             - DrupalUnlink
         -
           name: Lists
@@ -40,6 +44,8 @@ settings:
       styles: ''
     language:
       language_list: un
+    linkit:
+      linkit_profile: full_html_linkit_profile
 image_upload:
   status: true
   scheme: public

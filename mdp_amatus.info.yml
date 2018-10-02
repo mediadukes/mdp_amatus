@@ -51,6 +51,7 @@ dependencies:
   - mdm_blocks
   - chosen
   - chosen_field
+  - linkit
 themes:
   - bartik
   - seven

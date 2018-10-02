@@ -16,6 +16,7 @@ settings:
           items:
             - Bold
             - Italic
+            - Underline
             - Strike
             - Superscript
             - Subscript
@@ -25,6 +26,7 @@ settings:
           name: Linking
           items:
             - DrupalLink
+            - Linkit
             - DrupalUnlink
         -
           name: Lists
@@ -52,6 +54,8 @@ settings:
       styles: ''
     language:
       language_list: un
+    linkit:
+      linkit_profile: full_html_linkit_profile
 image_upload:
   status: true
   scheme: public
