@@ -48,7 +48,9 @@ dependencies:
   - config_filter
   - config_split
   - mdm_paragraphs
+  - mdm_blocks
   - chosen
+  - chosen_field
 themes:
   - bartik
   - seven
