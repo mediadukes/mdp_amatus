@@ -15,7 +15,7 @@ Some key modules/themes are:
 
 This profile also adds 2 content types (article and basic page) which uses paragraphs fields to add content. For a set of pre-configured paragraph types this profile uses the [mdm_paragraphs](https://github.com/mediadukes/mdm_paragraphs) module.
 Custom block types are available through the [mdm_blocks](https://github.com/mediadukes/mdm_blocks) module.
-Some improvements to the the adminimal theme are added via the [mdt_adminimal](https://github.com/mediadukes/mdt_adminimal) subtheme.
+Some theming improvements to the the adminimal theme are added via the [mdt_adminimal](https://github.com/mediadukes/mdt_adminimal) subtheme.
 
 
 ## Usage
