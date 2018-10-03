@@ -19,13 +19,3 @@ matchers:
         page: page
       group_by_bundle: true
       include_unpublished: false
-  82e8ceef-2da0-4ecb-8a11-0dc7697e8e9b:
-    uuid: 82e8ceef-2da0-4ecb-8a11-0dc7697e8e9b
-    id: 'entity:media'
-    weight: 0
-    settings:
-      result_description: Media
-      bundles:
-        file: file
-        video: video
-      group_by_bundle: true
