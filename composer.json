@@ -42,7 +42,7 @@
     "drupal/simple_sitemap": "^2.0",
     "drupal/smart_trim": "^1.0",
     "drupal/token": "^1.0",
-    "mediadukes/mdm_blocks": "1.0",
+    "mediadukes/mdm_blocks": "1.1",
     "mediadukes/mdm_paragraphs": "1.1",
     "mediadukes/mdt_adminimal": "1.x-dev",
     "oomphinc/composer-installers-extender": "^1.1"
